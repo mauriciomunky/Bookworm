@@ -14,6 +14,9 @@
 		2019B9D9298178A200CC97F8 /* Bookworm.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 2019B9D7298178A200CC97F8 /* Bookworm.xcdatamodeld */; };
 		2019B9DB2981794D00CC97F8 /* DataController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2019B9DA2981794D00CC97F8 /* DataController.swift */; };
 		2019B9DD298198DD00CC97F8 /* AddBookView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2019B9DC298198DD00CC97F8 /* AddBookView.swift */; };
+		2019B9DF29819ECD00CC97F8 /* RatingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2019B9DE29819ECD00CC97F8 /* RatingView.swift */; };
+		2019B9E12981AD5A00CC97F8 /* EmojiRatingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2019B9E02981AD5A00CC97F8 /* EmojiRatingView.swift */; };
+		2019B9E32981B05500CC97F8 /* DetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2019B9E22981B05500CC97F8 /* DetailView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -25,6 +28,9 @@
 		2019B9D8298178A200CC97F8 /* Bookworm.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Bookworm.xcdatamodel; sourceTree = "<group>"; };
 		2019B9DA2981794D00CC97F8 /* DataController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataController.swift; sourceTree = "<group>"; };
 		2019B9DC298198DD00CC97F8 /* AddBookView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddBookView.swift; sourceTree = "<group>"; };
+		2019B9DE29819ECD00CC97F8 /* RatingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RatingView.swift; sourceTree = "<group>"; };
+		2019B9E02981AD5A00CC97F8 /* EmojiRatingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmojiRatingView.swift; sourceTree = "<group>"; };
+		2019B9E22981B05500CC97F8 /* DetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +63,9 @@
 		2019B9C82980AB1000CC97F8 /* Bookworm */ = {
 			isa = PBXGroup;
 			children = (
+				2019B9E22981B05500CC97F8 /* DetailView.swift */,
+				2019B9E02981AD5A00CC97F8 /* EmojiRatingView.swift */,
+				2019B9DE29819ECD00CC97F8 /* RatingView.swift */,
 				2019B9DC298198DD00CC97F8 /* AddBookView.swift */,
 				2019B9DA2981794D00CC97F8 /* DataController.swift */,
 				2019B9D7298178A200CC97F8 /* Bookworm.xcdatamodeld */,
@@ -147,8 +156,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				2019B9CC2980AB1000CC97F8 /* ContentView.swift in Sources */,
+				2019B9E32981B05500CC97F8 /* DetailView.swift in Sources */,
 				2019B9DB2981794D00CC97F8 /* DataController.swift in Sources */,
 				2019B9D9298178A200CC97F8 /* Bookworm.xcdatamodeld in Sources */,
+				2019B9E12981AD5A00CC97F8 /* EmojiRatingView.swift in Sources */,
+				2019B9DF29819ECD00CC97F8 /* RatingView.swift in Sources */,
 				2019B9CA2980AB1000CC97F8 /* BookwormApp.swift in Sources */,
 				2019B9DD298198DD00CC97F8 /* AddBookView.swift in Sources */,
 			);
