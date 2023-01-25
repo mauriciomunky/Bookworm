@@ -11,6 +11,9 @@
 		2019B9CC2980AB1000CC97F8 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2019B9CB2980AB1000CC97F8 /* ContentView.swift */; };
 		2019B9CE2980AB1200CC97F8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2019B9CD2980AB1200CC97F8 /* Assets.xcassets */; };
 		2019B9D12980AB1200CC97F8 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2019B9D02980AB1200CC97F8 /* Preview Assets.xcassets */; };
+		2019B9D9298178A200CC97F8 /* Bookworm.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 2019B9D7298178A200CC97F8 /* Bookworm.xcdatamodeld */; };
+		2019B9DB2981794D00CC97F8 /* DataController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2019B9DA2981794D00CC97F8 /* DataController.swift */; };
+		2019B9DD298198DD00CC97F8 /* AddBookView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2019B9DC298198DD00CC97F8 /* AddBookView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +22,9 @@
 		2019B9CB2980AB1000CC97F8 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		2019B9CD2980AB1200CC97F8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2019B9D02980AB1200CC97F8 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		2019B9D8298178A200CC97F8 /* Bookworm.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Bookworm.xcdatamodel; sourceTree = "<group>"; };
+		2019B9DA2981794D00CC97F8 /* DataController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataController.swift; sourceTree = "<group>"; };
+		2019B9DC298198DD00CC97F8 /* AddBookView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddBookView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,6 +57,9 @@
 		2019B9C82980AB1000CC97F8 /* Bookworm */ = {
 			isa = PBXGroup;
 			children = (
+				2019B9DC298198DD00CC97F8 /* AddBookView.swift */,
+				2019B9DA2981794D00CC97F8 /* DataController.swift */,
+				2019B9D7298178A200CC97F8 /* Bookworm.xcdatamodeld */,
 				2019B9C92980AB1000CC97F8 /* BookwormApp.swift */,
 				2019B9CB2980AB1000CC97F8 /* ContentView.swift */,
 				2019B9CD2980AB1200CC97F8 /* Assets.xcassets */,
@@ -138,7 +147,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				2019B9CC2980AB1000CC97F8 /* ContentView.swift in Sources */,
+				2019B9DB2981794D00CC97F8 /* DataController.swift in Sources */,
+				2019B9D9298178A200CC97F8 /* Bookworm.xcdatamodeld in Sources */,
 				2019B9CA2980AB1000CC97F8 /* BookwormApp.swift in Sources */,
+				2019B9DD298198DD00CC97F8 /* AddBookView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -275,6 +287,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -304,6 +317,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -339,6 +353,19 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		2019B9D7298178A200CC97F8 /* Bookworm.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				2019B9D8298178A200CC97F8 /* Bookworm.xcdatamodel */,
+			);
+			currentVersion = 2019B9D8298178A200CC97F8 /* Bookworm.xcdatamodel */;
+			path = Bookworm.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = 2019B9BE2980AB1000CC97F8 /* Project object */;
 }
