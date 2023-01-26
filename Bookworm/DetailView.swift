@@ -27,6 +27,7 @@ struct DetailView: View {
             Text(book.author ?? "Unknown author").font(.title).foregroundColor(.secondary)
             Text(book.review ?? "No review").padding()
             RatingView(rating: .constant(Int(book.rating))).font(.largeTitle)
+            Text(book.date?.formatted(date: .abbreviated, time: .omitted) ?? "No date of review")
         }.navigationTitle(book.title ?? "Unknown Book").navigationBarTitleDisplayMode(.inline).alert("Delete book", isPresented: $showingDeleteAlert) {
             Button("Delete", role: .destructive, action: deleteBook)
             Button("Cancel", role: .cancel) { }
@@ -51,6 +52,7 @@ struct DetailView_Previews: PreviewProvider {
         book.genre = "Fantasy"
         book.rating = 4
         book.review = "This was a great book; I really enjoyed it."
+        book.date = Date.now
         return NavigationView {
             DetailView(book: book)
         }
